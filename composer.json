@@ -40,5 +40,6 @@
         {
             "VadNaitik\\PhpImageHelper\\": "src/"
         }
-    }
+    },
+	    "minimum-stability": "dev"
 }
