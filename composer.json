@@ -32,13 +32,13 @@
     "autoload": {
     	"psr-4":
         {
-            "VadNaitik\\PhpImageHelper\\": "src/"
+            "VadNaitik\\": "src/"
         }
     },
     "autoload-dev": {
     	"psr-4":
         {
-            "VadNaitik\\PhpImageHelper\\": "src/"
+            "VadNaitik\\": "src/"
         }
     },
 	    "minimum-stability": "dev"
