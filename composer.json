@@ -1,0 +1,44 @@
+{
+    "name": "vad-naitik/php-image-helper",
+    "description": "PHP Class to Image Crop or Resize and Display.",
+    "keywords": ["php", "image", "resize", "scale", "crop"],
+    "type": "library",
+    "homepage": "https://vadnaitik.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naitik Vadgama",
+            "email": "vad.naitik@gmail.com",
+            "homepage": "https://vadnaitik.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.0",
+        "ext-gd": "*",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+    	"phpunit/phpunit": "^8.5",
+        "apigen/apigen": "^4.1",
+        "php-coveralls/php-coveralls": "^2.1",
+        "ext-exif": "*",
+        "ext-gd": "*"
+    },
+	"suggest":
+    {
+        "ext-exif": "Auto-rotate jpeg files"
+    },
+    "autoload": {
+    	"psr-4":
+        {
+            "VadNaitik\\PhpImageHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    	"psr-4":
+        {
+            "VadNaitik\\PhpImageHelper\\": "src/"
+        }
+    }
+}
