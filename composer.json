@@ -13,6 +13,12 @@
             "role": "Developer"
         }
     ],
+	
+    "support": {
+        "source": "https://github.com/vad-naitik/PHP-Image-Helper",
+        "issues": "https://github.com/vad-naitik/PHP-Image-Helper/issues"
+    },
+	
     "require": {
         "php": ">=7.2.0",
         "ext-gd": "*",
@@ -41,5 +47,15 @@
             "VadNaitik\\": "src/"
         }
     },
-	    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "funding": [
+        {
+            "type": "Github",
+            "url": "https://github.com/sponsors/vad-naitik"
+        },
+        {
+            "type": "Paypal",
+            "url": "https://paypal.me/vadnaitik"
+        }
+    ]
 }
